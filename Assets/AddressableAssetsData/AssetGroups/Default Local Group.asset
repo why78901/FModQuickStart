@@ -21,10 +21,7 @@ MonoBehaviour:
     m_Address: Assets/AddressResources/Prefabs/Cube.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: f737135149824354bbaefb09b6121fcb
-    m_Address: Assets/AddressResources/Audio/FMODBanks/Master.bytes
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 89d8a8c6cd9395646b693fe401d107bf, type: 2}
   m_SchemaSet:

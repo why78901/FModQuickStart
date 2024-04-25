@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: bc200a6fd3ffcbb4db6c7d233dd37b1f
-  m_CachedHash:
+  m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: eed3a32a2e30202dd5a282520274039c
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -32,11 +32,14 @@ MonoBehaviour:
   m_ShaderBundleNaming: 0
   m_ShaderBundleCustomNaming: 
   m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
     m_Id: 
   m_RemoteCatalogLoadPath:
     m_Id: 
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
@@ -57,15 +60,15 @@ MonoBehaviour:
       - m_Id: 452196c5c8aaaf141bc7937528673c77
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 9ee6248129aaa394bbb43037743231a0
-        m_Value: '{UnityEngine.Application.persistentDataPath}/[AARoot]'
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 95ddc0ce2d147b540ba4cd14adc028e8
-        m_Value: '{UnityEngine.Application.persistentDataPath}/[AARoot]'
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 008e67eecdcd13d45ba57eef560e3f2c
-        m_Value: ServerData/[BuildTarget]
+        m_Value: 'ServerData/[BuildTarget]'
       - m_Id: 1c7538e2ec83dcc4bbdcb15933921c28
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: 'http://[PrivateIpAddress]:[HostingServicePort]'
       - m_Id: 1e871c2dc53995a4490ccd7e9d12c055
-        m_Value: Assets/[AOTFairyStatics.addressRoot]
+        m_Value: 'Assets/[AOTFairyStatics.addressRoot]'
     m_ProfileEntryNames:
     - m_Id: 452196c5c8aaaf141bc7937528673c77
       m_Name: BuildTarget
@@ -108,3 +111,4 @@ MonoBehaviour:
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
     m_RegisteredServiceTypeRefs: []
+    m_PingTimeoutInMilliseconds: 5000

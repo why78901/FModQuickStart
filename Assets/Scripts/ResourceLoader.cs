@@ -9,10 +9,10 @@ public class ResourceLoader : MonoBehaviour
     
     public static T Load<T>(string path) where T : UnityEngine.Object
     {
-// #if UNITY_EDITOR
-//         string url = addressResRoot + path;
-//         return UnityEditor.AssetDatabase.LoadAssetAtPath<T>(url);
-// #endif
+#if UNITY_EDITOR
+        string url = addressResRoot + path;
+        return UnityEditor.AssetDatabase.LoadAssetAtPath<T>(url);
+#endif
         string key = addressResRoot + path;
         key = key.Replace("\\", "/");
         Debug.LogError("key=" + key);
